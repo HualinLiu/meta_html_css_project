@@ -1,5 +1,5 @@
 *{
-    text-align:left;
+    text-align:center;
     background-color: beige;
     font-size: 25px;
     font-style: italic;
@@ -14,7 +14,8 @@ header img{
     padding: 50px;
 }
 
-p{
+.info_content{
+    text-align: left;
     display: block;
     border-radius: 10px;
     padding-left: 150px;
@@ -26,10 +27,13 @@ footer{
     display: flex;
     align-items: center;
     padding-top: 120px;
+    justify-content: center;
 }
 
 footer div{
     flex:1;
+    align-items: center;
+    justify-content: center;
 }
 
 .smalllogo{
@@ -45,6 +49,7 @@ nav ul{
     font-weight: bold;
     justify-content: center;
     font-style: oblique;
+    padding-bottom: 20px;;
 }
 
 ul li{
@@ -54,4 +59,9 @@ ul li{
 
 a{
     font-size: 30px;
+}
+
+.copyright{
+    font-size: 20px;
+    font-style: normal;
 }
